@@ -2,15 +2,16 @@
 
 # 📚 &nbsp; L E A R N I N G &nbsp; J O U R N A L
 
-**`BSc Applied AI · Certifications · Tech Prep`**
+**`AI Safety · Research Engineering · BSc Applied AI`**
 
-*🌼&nbsp; Upskilling is the way&nbsp;🌼*
+*🌼&nbsp; Learning in public, one build at a time&nbsp;🌼*
 
 ---
 
+![Focus](https://img.shields.io/badge/Focus-AI%20Safety%20%26%20Evals-c9a84c?style=flat-square)
+![AIGP](https://img.shields.io/badge/IAPP-AIGP%20Certified-c9a84c?style=flat-square)
 ![BSc Applied AI](https://img.shields.io/badge/BSc%20Applied%20AI-In%20Progress-c9a84c?style=flat-square)
 ![IU International University](https://img.shields.io/badge/IU%20International-University-c9a84c?style=flat-square)
-![Started](https://img.shields.io/badge/Started-May%202026-c9a84c?style=flat-square)
 
 </div>
 
@@ -18,7 +19,9 @@
 
 ## ∴ &nbsp; About
 
-A living record of deliberate learning — notes, examples, and practice projects across certifications, BSc modules, and technical interview preparation. Updated as I go.
+I'm a senior software developer (10+ years: Java, Kubernetes, GitOps) learning to apply those skills to AI safety, starting with evals and agent monitoring.
+
+This journal is my record of that move: what I'm learning, what I'm building, and what broke along the way. It sits alongside my BSc in Applied AI and the IAPP AIGP certification.
 
 ---
 
@@ -26,26 +29,25 @@ A living record of deliberate learning — notes, examples, and practice project
 
 | Certification | Provider | Status |
 |---------------|----------|--------|
-| Claude Code in Action | Anthropic Academy | 🟡 In progress |
-| GitHub Copilot | GitHub Education | ⬜ Not started |
-| GitHub Actions | GitHub Education | ⬜ Not started |
-| MongoDB Associate Developer (Java) | MongoDB University | ⬜ Not started |
-| New Relic Observability Practitioner | New Relic | ⬜ Not started |
+| Claude Code in Action | Anthropic Academy | ✅ Done |
+| AIGP Certificate | IAPP | ✅ Done |
+| AIGN Junior Fellowship | AIGN | ✅ Done |
 
 ---
 
 ## ∴ &nbsp; Tech Upskilling
 
-| Topic | Status |
-|-------|--------|
-| Spring Boot | ⬜ Not started |
-| Kafka + Event-Driven Architecture | ⬜ Not started |
-| TypeScript Backend + Node.js | ⬜ Not started |
-| GitHub Actions CI/CD | ⬜ Not started |
-| Azure Cloud Fundamentals | ⬜ Not started |
-| Python + FastAPI | ⬜ Not started |
-| React Deep Dive | ⬜ Not started |
-| System Design | ⬜ Not started |
+| Topic | Why | Status |
+|-------|-----|--------|
+| GitHub Actions CI/CD | Reproducible builds and evals | ✅ Done |
+| Python (typing, uv, pytest, async) | The language of research teams | 🔄 In progress |
+| Evals with Inspect | Measuring what models can do | ⬜ Up next |
+| Model serving (llama.cpp → vLLM) | Running models on my own infra | ⬜ Up next |
+| Kubernetes for research workloads (k3s, ArgoCD, Jobs) | Evals as scheduled, repeatable jobs | ⬜ Up next |
+| Experiment tracking (MLflow) | Comparable, logged results | ⬜ Planned |
+| PyTorch fundamentals (ARENA) | Understanding what researchers need | ⬜ Planned |
+| Agent monitoring (OpenTelemetry, OPA) | Runtime oversight of AI agents | ⬜ Planned |
+| System design for ML platforms | Designing eval and training infra | ⬜ Planned |
 
 ---
 
@@ -55,24 +57,9 @@ A living record of deliberate learning — notes, examples, and practice project
 |--------|--------|
 | Python Project | ✅ Done |
 | Intro to Data Protection Cybersecurity | 🟡 In progress |
-| AI Fundamentals | 🟡 In progress |
+| Mathematics: Analysis | 🟡 In progress |
 
 ---
-
-## ∴ &nbsp; Repo Structure
-
-```
-/claude-code          ← Claude Code in Action
-/github-copilot       ← GitHub Copilot Certification
-/github-actions       ← GitHub Actions Certification
-/mongodb              ← MongoDB Associate Developer
-/spring-boot          ← Spring Boot practice
-/kafka                ← Kafka + event-driven patterns
-/node-typescript      ← TypeScript backend + Node.js
-/react-deep-dive      ← React fundamentals
-/system-design        ← System design notes
-/bsc-ai               ← BSc Applied AI module notes
-```
 
 ---
 
